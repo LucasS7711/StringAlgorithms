@@ -3,7 +3,7 @@ public class StringAlgorithms {
         String toReturn = "";
         int count = 0;
         while (count < word.length()) {
-           toReturn += "\n" + word.substring(count, count + 1);
+           toReturn += word.substring(count, count + 1) + "\n";
            count++;
         }
         return toReturn;
